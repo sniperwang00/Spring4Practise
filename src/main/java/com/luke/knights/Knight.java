@@ -1,4 +1,4 @@
-package com.luke.domain;
+package com.luke.knights;
 
 public interface Knight {
 }

@@ -1,4 +1,4 @@
-package com.luke.domain;
+package com.luke.quests;
 
 public interface Quest {
 	void emark();
