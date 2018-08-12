@@ -1,3 +1,5 @@
+package com.luke.test;
+
 import com.luke.knights.BraveKnight;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

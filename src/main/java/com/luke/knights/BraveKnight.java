@@ -2,7 +2,10 @@ package com.luke.knights;
 
 import com.luke.minstrel.Minstrel;
 import com.luke.quests.Quest;
+import org.springframework.context.annotation.Profile;
 
+
+@Profile("dev")
 public class BraveKnight implements Knight{
 	private Quest quest;
 
