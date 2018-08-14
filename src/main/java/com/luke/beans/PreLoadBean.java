@@ -7,6 +7,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class PreLoadBean {
 
-	@Autowired
-	public Environment env;
+//	@Autowired
+//	public Environment env;
 }

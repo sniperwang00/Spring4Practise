@@ -32,11 +32,19 @@ public class CountTest {
 
 	}
 
+//	@Test
+//	public void testLoadProperties() {
+//		assertNotNull(loadBean);
+//		assertNotNull(loadBean.env);
+//		assertEquals("aaa", loadBean.env.getProperty("firstProperty"));
+//	}
+
 	@Test
-	public void testLoadProperties() {
-		assertNotNull(loadBean);
-		assertNotNull(loadBean.env);
-		assertEquals("aaa", loadBean.env.getProperty("firstProperty"));
+	public void testLoadName() {
+		assertEquals("Wang", count.firstName);
+		assertEquals("Luke", count.lastName);
+		assertNotNull(count.pi);
+		System.out.println(count.pi);
 	}
 
 }
