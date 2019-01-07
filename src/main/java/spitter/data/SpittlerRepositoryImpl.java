@@ -16,4 +16,11 @@ public class SpittlerRepositoryImpl implements SpittlerRepository{
 		list.add(spittle);
 		return list;
 	}
+
+	public List<Spittle> findById(long id) {
+		Spittle spittle = new Spittle("findbyId", new Date(), 12.3, 22.4);
+		List<Spittle> list = new ArrayList<Spittle>();
+		list.add(spittle);
+		return list;
+	}
 }

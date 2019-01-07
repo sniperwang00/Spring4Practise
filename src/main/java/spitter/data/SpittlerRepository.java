@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface SpittlerRepository {
 	List<Spittle> findSpittles(long max, int count);
+
+	List<Spittle> findById(long id);
 }
