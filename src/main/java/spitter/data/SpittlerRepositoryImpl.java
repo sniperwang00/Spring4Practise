@@ -2,6 +2,7 @@ package spitter.data;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
+import spitter.Spitter;
 import spitter.Spittle;
 
 import java.util.ArrayList;
@@ -22,5 +23,14 @@ public class SpittlerRepositoryImpl implements SpittlerRepository{
 		List<Spittle> list = new ArrayList<Spittle>();
 		list.add(spittle);
 		return list;
+	}
+
+	public void save(Spitter spitter) {
+
+	}
+
+	public Spitter findByUserName(String username) {
+		Spitter spitter = new Spitter("aaa", "bbb", "ccc", "ddd");
+		return spitter;
 	}
 }
